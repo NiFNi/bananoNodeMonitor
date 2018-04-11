@@ -1,5 +1,5 @@
 <?php
-require_once 'api.php';
+require_once __DIR__ . '/api.php';
 ?>
 
 
@@ -23,15 +23,15 @@ require_once 'api.php';
         <ul class="list-group">
             <li class="list-group-item">
                 Balance
-                <span class="float-right"><?php echo $data->accBalanceMnano; ?> Nano</span>
+                <span class="float-right"><?php echo $data->accBalanceMnano; ?> Banano</span>
             </li>
             <li class="list-group-item">
                 Pending
-                <span class="float-right"><?php echo $data->accPendingMnano; ?> Nano</span>
+                <span class="float-right"><?php echo $data->accPendingMnano; ?> Banano</span>
             </li>
             <li class="list-group-item">
                 Voting Weight
-                <span class="float-right"><?php echo $data->votingWeight; ?> Nano</span>
+                <span class="float-right"><?php echo $data->votingWeight; ?> Banano</span>
             </li>
             <li class="list-group-item">
                 Peers
@@ -54,7 +54,7 @@ require_once 'api.php';
                 <span class="float-right"><?php echo $data->uncheckedBlocks; ?></span>
             </li>
             <li class="list-group-item">
-                Difference to Nanode
+                Difference to Nanoblocks
                 <span class="float-right"><?php if ($data->nanodeData) {
                         echo $data->nanodeData->count-$data->currentBlock;
                     } else echo "Could not reach Nanode"; ?></span>

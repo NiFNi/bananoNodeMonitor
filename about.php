@@ -7,16 +7,7 @@ include 'modules/header.php';
 
     <h2>The Website</h2>
     <p>
-        This website is a fork of this repository: <a href="https://github.com/nanotools/nanoNodeMonitor">original</a>.
-        The fork can be found here: <a href="https://github.com/nifni/nanoNodeMonitor">fork</a>. I forked
-        away because I wanted this frontend to be more simplistic than it was. For example I removed some Javascript
-        libraries to make the side load faster and consume less traffic (especially on mobile). Also I did not find
-        it important to show the current market situation for choosing me as a representative. That is why I removed the
-        coinmarketcap widget.
-    </p>
-    <p>
-        If you think about donating because of the sleek website, feel free to check out the original though.
-        The contributors there did most of the work!
+        Check out my <a href="https://nano.nifni.net">Node Monitor</a> for more information on the website.
     </p>
 
     <h2>About Me</h2>
@@ -26,10 +17,9 @@ include 'modules/header.php';
         node. Because of that I want to give you some personal information about me.
     </p>
     <p>
-        My name is Nico Fricke and I am currently living in Bremen/Germany. I am into Nano since early December 2017.
+        My name is Nico Fricke and I am currently living in Bremen/Germany. I am into Nano since early December 2017 and started to like Banano as a Nano testing currency.
         In the Nano Discord I am mainly around in the #support channel where you might have seen me. I am 21 years
-        old and right now I study computer science at the University of Bremen. The plan is to be finished with that
-        in the summer this year.
+        old and right now I study computer science at the University of Bremen.
         You can find me on <a href="https://reddit.com/u/nifni">Reddit</a>,
         <a href="https://twitter.com/nifninif">Twitter</a>,
         <a href="http://steamcommunity.com/profiles/76561198035378497/">Steam</a>,
@@ -54,11 +44,12 @@ include 'modules/header.php';
         The scheduled downtimes were always communicated accordingly and took only some minutes until everything
         was up again.
         The underlying OS is a headless Ubuntu 16.04 which has been stable for me on many different servers and VMs.
-        The hardware specification of this server is 2 dedicated CPU cores, 6GB RAM and a 40 GB SSD.
+        The hardware specification of this server is 2 vCPU cores, 4GB RAM and a 40 GB SSD.
     </p>
     <p>
         There are checks running which will notify me the moment the node goes offline or is not reachable for
         any reason. I will always keep the node software updated as soon as there is a new release in place.
+        Also my Nano node is running since the end of january without major problems.
     </p>
 
     <h2>How can you support me?</h2>
@@ -68,15 +59,15 @@ include 'modules/header.php';
         us :P.
     </p>
     <p>
-        If you want to support me directly you can donate me some Nano to the address at the bottom or scan this qr code:
+        If you want to support me directly you can donate me some Banano to the address at the bottom or you can check out my 
+        <a href="https://nano.nifni.net">Node Monitor</a> for how to support me using Nano.
     </p>
-    <img src="static/img/qr.png">
 
     <h2>How can you contact me?</h2>
     <p>
         For any open questions you can contact me on one of the channels mentioned in the "About Me" chapter. For the
         people who are not active on any of the mentioned platforms here is my email address:
-        <a href="mailto:nano@nifni.net?subject=[Node]">Contact</a>
+        <a href="mailto:banano@nifni.net?subject=[Node]">Contact</a>
     </p>
 
     <h2>Why should you use me as your representative?</h2>
@@ -85,7 +76,7 @@ include 'modules/header.php';
         so that you know who I am and when checking my social network sites you can make sure that I am really who I
         claim I am. And last but not least I offer a e-mail list you can subscribe to. I will write about any updates
         concerning my node (probably about two emails per month). To subscribe just write an e-mail to
-        <a href="mailto:nano@nifni.net?subject=[Node Newsletter]">nano@nifni.net</a> from the e-mail
+        <a href="mailto:banano@nifni.net?subject=[Node Newsletter]">banano@nifni.net</a> from the e-mail
         you want to subscribe with. You can always unsubscribe by just writing me that you want to unsubscribe.
     </p>
     <!--- add the footer -->
