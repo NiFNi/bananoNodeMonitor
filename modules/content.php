@@ -7,7 +7,7 @@ require_once __DIR__ . '/api.php';
 
 <div class="row">
     <div class="col-lg-8">
-        If you choose me as your node think about subscribing to my email list for updates about 
+        If you choose me as your representative think about subscribing to my email list for updates about 
         this node. Check the last chapter at the about page for further information. Also check 
         my Nano node at <a href="https://nano.nifni.net">nano.nifni.net</a>. 
     </div>
