@@ -7,7 +7,8 @@ include 'modules/header.php';
 
     <h2>The Website</h2>
     <p>
-        Check out my <a href="https://nano.nifni.net">Node Monitor</a> for more information on the website.
+        Check out my <a href="https://nano.nifni.net">Node Monitor</a> for more information on the website. The source code for this version can be found here: 
+        <a href="https://github.com/nifni/nanoNodeMonitor">Bananomonitor</a>.
     </p>
 
     <h2>About Me</h2>
