@@ -62,7 +62,7 @@ require_once __DIR__ . '/api.php';
                 <span class="float-right"><?php echo round($data->ldbSize / 1024 / 1024 / 1024, 3); ?> GiB</span>
             </li>
             <li class="list-group-item">
-                Blockcount diff to <a href="https://nanonode.ninja">node ninja</a>
+                Blockcount diff to <a href="https://node.banano.co.in/">official node</a>
                 <span class="float-right"><?php echo $data->ninjaBlockCount-$data->currentBlock;?></span>
             </li>
         </ul>
