@@ -35,9 +35,10 @@ $data->ldbSize = (int) file_get_contents(__DIR__."/../data/ldbsize");
 $data->delegCount = (int) file_get_contents(__DIR__."/../data/delegcount");
 $data->ninjaBlockCount = (int) file_get_contents(__DIR__."/../data/ninjablockcount");
 $data->votingWeight = (float) file_get_contents(__DIR__."/../data/votingweight");
-$data->nanoNodeName = "nano.nifni.net";
+$data->nanoNodeName = "banano.nifni.net";
 $data->networkVersions = json_decode(file_get_contents((__DIR__."/../data/networkversion.json")));
 $data->blockTypes = json_decode(file_get_contents((__DIR__."/../data/blocktypes.json")));
+$data->onlineVotingWeight = json_decode(file_get_contents((__DIR__."/../data/onlinevotingweight.json")));
 
 // -- System uptime & memory info --
 $data->systemLoad = getSystemLoadAvg();

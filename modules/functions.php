@@ -15,10 +15,16 @@ function phpCurlAvailable()
 }
 
 // raw to Mnano
-function rawToMnano($raw, $precision)
+function rawToMnano($raw)
 {
-  return number_format(($raw / 100000000000000000000000000000.0), $precision,'.',',');
+  return ($raw / 100000000000000000000000000000.0);
 }
+
+function prettyFormatNano($nano, $precision)
+{
+  return number_format($nano, $precision,'.',',');
+}
+
 
 // get system load average
 function getSystemLoadAvg()

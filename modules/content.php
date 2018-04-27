@@ -9,7 +9,7 @@ require_once __DIR__ . '/api.php';
     <div class="col-lg-8">
         If you choose me as your representative think about subscribing to my email list for updates about 
         this node. Check the last chapter at the about page for further information. Also check 
-        my Banano node at <a href="https://banano.nifni.net">banano.nifni.net</a>. 
+        my Nano node at <a href="https://nano.nifni.net">nano.nifni.net</a>. 
     </div>
 </div>
 
@@ -31,7 +31,7 @@ require_once __DIR__ . '/api.php';
         <ul class="list-group">
             <li class="list-group-item">
                 Voting Weight
-                <span class="float-right"><?php echo rawToMnano($data->votingWeight, $nanoNumDecimalPlaces); ?> Nano</span>
+                <span class="float-right"><?php echo prettyFormatNano(rawToMnano($data->votingWeight), $nanoNumDecimalPlaces); ?> Banano</span>
             </li>
             <li class="list-group-item">
                 Delegator Count
@@ -113,6 +113,23 @@ require_once __DIR__ . '/api.php';
                 <span class="float-right"><?php echo $count;?> </span>
             </li>
             <?php endforeach; ?>
+        </ul>
+    </div>
+    <div class="col-lg-6">
+        <h3>Network Stats</h3>
+        <ul class="list-group">
+            <li class="list-group-item">
+                Online Representatives
+                <span class="float-right"><?php echo $data->onlineVotingWeight->count; ?></span>
+            </li>
+            <li class="list-group-item">
+                Online Voting Weight
+                <span class="float-right"><?php echo prettyFormatNano(rawToMnano($data->onlineVotingWeight->weight), 0); ?> Banano</span>
+            </li>
+            <li class="list-group-item">
+                Online Voting Weight in %
+                <span class="float-right"><?php echo prettyFormatNano(rawToMnano($data->onlineVotingWeight->weight) / BANANO_SUPPLY * 100, $nanoNumDecimalPlaces); ?> %</span>
+            </li>
         </ul>
     </div>
 </div>
