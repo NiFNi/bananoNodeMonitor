@@ -14,4 +14,4 @@ define('GITHUB_LATEST_API_URL', 'https://api.github.com/repos/nifni/bananoNodeMo
 define ('NANO_ADDR_NUM_CHAR', 17);
 
 // total nano supply in Mnano
-define ('BANANO_SUPPLY',  3400000000);
+define ('BANANO_SUPPLY',  3402823669.20);
